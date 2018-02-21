@@ -1,15 +1,10 @@
 <?php
 
-include 'Program.class.php';
-include 'SvgRenderer.class.php';
-include 'Shape.class.php';
-include 'Rectangle.class.php';
-include 'Circle.class.php';
-include 'Ellipse.class.php';
-include 'Polygon.class.php';
+
+include 'shapes/autoload.php';
 
 $program = new Program();
-$renderer = new SvgRenderer();
+$renderer = new SvgRenderer(1200, 1200, 'black');
 
 
 
